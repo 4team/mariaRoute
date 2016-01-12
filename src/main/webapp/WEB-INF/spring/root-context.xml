@@ -14,9 +14,9 @@
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
 		<property name="driverClass" value="org.mariadb.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mariadb://14.32.66.127:3306/maruhan_db"></property>
-		<property name="username" value="maruhan"></property>
-		<property name="password" value="dmsgP"></property>
+		<property name="url" value="jdbc:mariadb://14.32.66.127:3306/archistory"></property>
+		<property name="username" value="root"></property>
+		<property name="password" value="root"></property>
 	</bean>
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
